@@ -126,4 +126,6 @@ public class TimeEntryControllerTest {
         verify(timeEntryRepository).delete(timeEntryId);
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NO_CONTENT);
     }
+
+
 }
